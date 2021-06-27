@@ -13,7 +13,9 @@
 /* two divs */
 #title{
     background-color: rgb(45, 47, 61);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     width: 50%;
 }
@@ -25,8 +27,8 @@
 /* outer box */
 .outerBox{
     position: absolute;
-    top: 200px;
-    left: 250px;
+    top: 150px;
+    left: 200px;
     height: 340px;
     width: 250px;
     background-color: rgb(71, 71, 71);
